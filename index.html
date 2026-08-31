@@ -1,57 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Saurya Bhatt</title>
-<link rel="stylesheet" href="style.css"> </head>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Saurya Bhatt — Data Science student at UT Dallas building data, analytics, and AI projects.">
+  <title>Saurya Bhatt | Data Science</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
+  <nav class="nav">
+    <a class="brand" href="#top">SB</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="https://github.com/bhattsaurya16" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </div>
+  </nav>
 
-<header>
-  <h1>Saurya Bhatt</h1>
-  <p>Data Science Student • Analytics • Problem Solver</p>
-</header>
+  <main id="top">
+    <section class="hero">
+      <div class="eyebrow"><span></span> Data Science · Analytics · AI</div>
+      <h1>Saurya<br><span>Bhatt.</span></h1>
+      <p class="hero-copy">Data Science student at The University of Texas at Dallas, interested in turning messy data into useful systems, clear decisions, and measurable insight.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">View my work</a>
+        <a class="button secondary" href="https://github.com/bhattsaurya16" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>UT Dallas</strong><span>Data Science</span></div>
+        <div><strong>Focus</strong><span>Analytics & AI</span></div>
+        <div><strong>Currently</strong><span>Exploring ML research</span></div>
+      </div>
+    </section>
 
-<section>
-  <h2>About</h2>
-  <p>
-  I'm a data science student at the University of Texas at Dallas with an
-  interest in analytics, finance, and understanding real-world systems through
-  data. I enjoy exploring patterns, building projects, and learning new tools
-  that turn raw information into insight.
-  </p>
-</section>
+    <section id="about" class="section split">
+      <div>
+        <p class="section-label">01 / About</p>
+        <h2>I like understanding how things work through data.</h2>
+      </div>
+      <div class="about-copy">
+        <p>I'm a Data Science student at UT Dallas interested in analytics, machine learning, and the intersection of technology and real-world decision making.</p>
+        <p>My projects have pushed me from visualizing data to building interactive analytics tools, calculating business metrics, working with flexible datasets, and integrating AI-generated analysis. I'm now looking to deepen that foundation through research and more rigorous machine-learning work.</p>
+      </div>
+    </section>
 
-<section>
-  <h2>Projects</h2>
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">02 / Selected work</p>
+          <h2>Projects built around real questions.</h2>
+        </div>
+        <a class="text-link" href="https://github.com/bhattsaurya16" target="_blank" rel="noreferrer">All repositories ↗</a>
+      </div>
 
-  <div class="project">
-    <h3>Biology Data Visualization</h3>
-    <p>
-    Used R to analyze and visualize biological research data, producing
-    statistical graphs and trend analysis.
-    </p>
-  </div>
+      <article class="project featured">
+        <div class="project-number">01</div>
+        <div class="project-body">
+          <div class="project-topline">
+            <span class="status">Featured project</span>
+            <span>2026</span>
+          </div>
+          <h3>SaaSDashboard</h3>
+          <p>An interactive analytics dashboard for SaaS customer data and general business datasets. It calculates metrics such as churn, MRR, retention and revenue loss, supports CSV/Excel uploads and SQL queries, and uses Gemini to turn computed results into executive-level insights.</p>
+          <div class="tags">
+            <span>Python</span><span>Streamlit</span><span>Pandas</span><span>Analytics</span><span>Gemini</span>
+          </div>
+          <div class="project-links">
+            <a href="https://saasdash.streamlit.app/" target="_blank" rel="noreferrer">Live demo ↗</a>
+            <a href="https://github.com/bhattsaurya16/SaaSDashboard" target="_blank" rel="noreferrer">Source ↗</a>
+          </div>
+        </div>
+      </article>
 
-  <div class="project">
-    <h3>Portfolio Website</h3>
-    <p>
-    Built a simple responsive portfolio website using HTML and CSS and deployed
-    it through GitHub Pages.
-    </p>
-  </div>
+      <div class="project-grid">
+        <article class="project compact">
+          <div class="project-number">02</div>
+          <div class="project-body">
+            <h3>Biology Data Visualization</h3>
+            <p>Analyzed biological research data in R and translated results into statistical visualizations to examine patterns and trends.</p>
+            <div class="tags"><span>R</span><span>Data Visualization</span><span>Statistics</span></div>
+          </div>
+        </article>
 
-</section>
+        <article class="project compact">
+          <div class="project-number">03</div>
+          <div class="project-body">
+            <h3>Portfolio Website</h3>
+            <p>Designed and built this responsive portfolio from the ground up with semantic HTML and CSS, then deployed it through GitHub Pages.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>GitHub Pages</span></div>
+            <div class="project-links"><a href="https://github.com/bhattsaurya16/Portfolio" target="_blank" rel="noreferrer">Source ↗</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<section>
-  <h2>Skills</h2>
-  <p>Python • R • Data Visualization • Statistics • HTML • CSS</p>
-</section>
+    <section id="skills" class="section split skills-section">
+      <div>
+        <p class="section-label">03 / Toolkit</p>
+        <h2>What I work with.</h2>
+      </div>
+      <div class="skill-groups">
+        <div><span>Languages</span><p>Python · R · HTML · CSS</p></div>
+        <div><span>Data</span><p>Pandas · Data Visualization · Statistics · Data Analysis</p></div>
+        <div><span>Building</span><p>Streamlit · Git · GitHub · API Integration</p></div>
+        <div><span>Exploring</span><p>Machine Learning · AI Systems · Research Methods</p></div>
+      </div>
+    </section>
 
-<footer>
-  <p>© 2026 Saurya Bhatt</p>
-</footer>
+    <section class="section closing">
+      <p class="section-label">04 / What's next</p>
+      <h2>Building toward deeper work in <span>data, machine learning, and research.</span></h2>
+      <p>I care about projects where the result is more than a model or a chart — it should answer a real question.</p>
+      <a class="button primary" href="https://github.com/bhattsaurya16" target="_blank" rel="noreferrer">Explore my GitHub ↗</a>
+    </section>
+  </main>
 
+  <footer>
+    <span>© 2026 Saurya Bhatt</span>
+    <span>Built with HTML + CSS · Hosted on GitHub Pages</span>
+  </footer>
 </body>
 </html>
