@@ -2,7 +2,7 @@
 
 The source for my personal portfolio, built to present selected data science, analytics, and applied AI work.
 
-**Live site:** [bhattsaurya16.github.io](https://bhattsaurya16.github.io/)
+**Live site:** [bhattsaurya16.github.io/Portfolio](https://bhattsaurya16.github.io/Portfolio/)
 
 ## Highlights
 
